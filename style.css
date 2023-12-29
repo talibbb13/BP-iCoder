@@ -1,4 +1,37 @@
-home
-about us
-topics
-contact us
+body {
+  background: antiquewhite;
+}
+.content_container {
+  background: floralwhite;
+}
+.content_container img {
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+#css-size {
+  max-width: 75%;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-body img{
+height: 20rem;
+}
+
+@media screen and (max-width: 600px) {
+  #sign {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #log {
+    margin-top: 15px;
+  }
+}
